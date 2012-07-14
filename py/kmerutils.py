@@ -154,10 +154,10 @@ def main():
     reader = FastQReader(fname)
 
     for read, quals in containing_reads(kmer, reader):
-        print '@HWI-EAS306:7:1:1003:1817#NNNNNN/1'
-        print read
-        print '+'
-        print quals
+        print('@HWI-EAS306:7:1:1003:1817#NNNNNN/1')
+        print(read)
+        print('+')
+        print(quals)
 
 if __name__ == '__main__':
     main()
